@@ -1,10 +1,10 @@
 *{
     
-    margin: 0;
-    padding: 0;
+    margin:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -35,43 +35,79 @@ header nav a{
     padding: 10px;   
     text-align: center;
 }
+.personal{
+    border-radius: 50%;
+    width: 400px;
+    height: 250px;
+}
 
-form{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    display:flex;
-    flex-direction: column;
+.formitem{   
+   display:grid;
+   grid-template-columns: 35%;
+   justify-content: center;
+   background-color: rgb(231, 249, 247);
+           
+}
+
+form {
     
+    display:flex;
+    flex-direction: column; 
+
+}
+
+input[type = submit]{
+    margin-top: 10px;
 }
 
 .category{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     text-align: center;
     padding: 10px;
 }
 
+.category{
+    background-color: rgb(167, 246, 239);
+}
+
 .projects{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     display:grid;
     grid-template-columns:2fr 2fr ;
-    border-top: 2px dashed rgb(59, 217, 228);
-    border-bottom: 2px dashed rgb(59, 217, 228); 
+     
    
+}
+
+.item1, .item3, .item5{
+    background-color: rgb(231, 249, 247);
+}
+
+.item2, .item4, .item6{
+    background-color:   rgb(194, 244, 238);
 }
 
 .projects img{
     justify-self: center;
     border: 1px solid;
+    border-radius: 10px;
     margin:15px;
     width: 400px;
     height: 250px;
 }
+.about{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+main span p{
+    justify-self: center;
+    align-self: center;
+    text-align: justify;
+}
 
 .projects span{  
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     padding: 15px;
     display:grid;
     justify-self: center;
@@ -79,17 +115,25 @@ form{
 }
 
 .projects span h3{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     justify-self: center;
     align-self: self-end;
 }
 
 .projects span a{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
     justify-self: center;
     align-self: self-start;
+}
+
+.contact{
+   display:flex;
+   justify-content: center;
+   margin:10px;
+   
+}
+.contact a{
+    padding:5px
 }
 
 
