@@ -1,0 +1,62 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    
+    background-color: aqua;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+header h1{
+    margin:10px;
+}
+
+header nav a{
+    margin:5px
+}
+.hero-banner{
+    background-color: azure;
+}
+.hero-banner > *{
+    
+    padding: 10px;   
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    
+}
+.category{
+    text-align: center;
+    padding: 10px;
+}
+.projects{
+    border-top: 2px dashed blue;
+    border-bottom: 2px dashed blue;
+    display:flex;
+   
+}
+.projects img{
+    margin:15px;
+    width: 320px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+
+
