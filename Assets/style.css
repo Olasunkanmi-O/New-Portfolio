@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -22,34 +24,76 @@ header h1{
 header nav a{
     margin:5px
 }
+
 .hero-banner{
+    font-family:'Roboto', sans-serif;;
     background-color: azure;
 }
+
 .hero-banner > *{
     
     padding: 10px;   
     text-align: center;
 }
+
 form{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
     
 }
+
 .category{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 10px;
 }
+
 .projects{
-    border-top: 2px dashed blue;
-    border-bottom: 2px dashed blue;
-    display:flex;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display:grid;
+    grid-template-columns:2fr 2fr ;
+    border-top: 2px dashed rgb(59, 217, 228);
+    border-bottom: 2px dashed rgb(59, 217, 228); 
    
 }
+
 .projects img{
+    justify-self: center;
+    border: 1px solid;
     margin:15px;
-    width: 320px;
-    height: 180px;
+    width: 400px;
+    height: 250px;
 }
+
+.projects span{  
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    display:grid;
+    justify-self: center;
+    align-items: center;
+}
+
+.projects span h3{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+    align-self: self-end;
+}
+
+.projects span a{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+    align-self: self-start;
+}
+
+
+
 
 
 
